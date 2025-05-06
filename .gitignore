@@ -1,0 +1,51 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+dist/
+build/
+schema/
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm/
+.pnpm-debug.log
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# IDE/Editor
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# Cache directories
+.npm
+.eslintcache
+.cache
+.parcel-cache
+
+# Testing (Jest might create temporary files)
+.jest_cache/
+
+# Optional lockfile (uncomment if you don't want to commit package locks)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
